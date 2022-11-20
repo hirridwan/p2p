@@ -416,7 +416,7 @@
                     <form class="forms-sample">
                       <div class="form-group">
                         <label for="exampleInputUsername1">No. Factsheet</label>
-                        <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username" />
+                        <input type="text" class="form-control" id="exampleInputUsername1" placeholder="No. Factsheet" />
                       </div>
 
                       <!-- ROW 1 -->
@@ -424,13 +424,17 @@
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Nama Fintech</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Fintech</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
                           </div>
                         </div>
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Nama Borrower</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nama Borrower" />
                           </div>
                         </div>
                       </div>
@@ -441,13 +445,18 @@
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Lokasi Perusahaan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Lokasi Perusahaan</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Sektor Usaha</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Sektor Usaha" />
                           </div>
                         </div>
                       </div>
@@ -458,13 +467,23 @@
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Nama Lokasi Projek</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Lokasi Projek</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Jenis Pembiayaan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Jenis Pembiayaan</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                       </div>
@@ -475,13 +494,23 @@
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">ADD & PK</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih ADD & PK</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Plafon Penawaran</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Plafon Penawaran</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                       </div>
@@ -489,68 +518,63 @@
 
                       <!-- ROW 5 -->
                       <div class="row">
-                        <div class="col-4">
+                        <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Nominal Pembayaran</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text bg-primary text-white">Rp</span>
+                              </div>
+                              <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" />
+                              <div class="input-group-append">
+                                <span class="input-group-text">.00</span>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Jangka Waktu</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Jangka Waktu" />
                           </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Type</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Type</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                       </div>
                       <!-- End ROW 5 -->
-
-                      <!-- ROW 6 -->
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="exampleInputEmail1">Nominal Pembayaran</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="exampleInputEmail1">Jangka Waktu</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="exampleInputEmail1">Type</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- ROW 6 -->
 
                       <!-- row 7 -->
                       <div class="row">
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">ADD & PK</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih ADD & PK</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Bunga</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Bunga" />
                           </div>
                         </div>
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Tujuan Pinjaman</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tujuan Pinjaman" />
                           </div>
                         </div>
                       </div>
@@ -561,19 +585,29 @@
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Sifat Pembiayaan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Sifat Pembiayaan" />
                           </div>
                         </div>
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Rating Fintech</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Rating Fintech</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Status Pembiayaan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Status Pembiayaan</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                       </div>
@@ -584,19 +618,28 @@
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Tanggal Pembiayaan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="date" class="form-control" id="exampleInputEmail1" />
                           </div>
                         </div>
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Rating Pefindo</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Rating Pefindo</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
                           </div>
                         </div>
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Agunan Utama</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Agunan Utama</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
                           </div>
                         </div>
                       </div>
@@ -607,19 +650,19 @@
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Nama Payor</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nama Payor" />
                           </div>
                         </div>
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Bidang Usaha</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Bidang Usaha" />
                           </div>
                         </div>
                         <div class="col-4">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Lokasi Payor</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Lokasi Payor" />
                           </div>
                         </div>
                       </div>
@@ -630,13 +673,17 @@
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Baki Debet</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Baki Debet" />
                           </div>
                         </div>
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Rekomendasi RAC</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Rekomendasi RAC</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
                           </div>
                         </div>
                       </div>
@@ -647,13 +694,21 @@
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Bonafide</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Bonafide</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
                           </div>
                         </div>
                         <div class="col-6">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Repeat Order</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+                            <select class="form-control" id="exampleSelectGender">
+                              <option selected>Pilih Repeat Order</option>
+                              <option>Data A</option>
+                              <option>Data B</option>
+                            </select>
                           </div>
                         </div>
                       </div>
