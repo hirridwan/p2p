@@ -1,13 +1,10 @@
-
-
-<h1>Star Admin2 Free Bootstrap Admin Template</h1>
+<h1>P2P Lending</h1>
 Star Admin 2 Free is an open-source, admin dashboard template built with <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a>  created by <a href="https://www.bootstrapdash.com/" target="_blank">BootstrapDash</a>.
 
 <h2>Preview</h2>
 <a href="https://www.bootstrapdash.com/demo/star-admin2-free/template/" target="_blank"><img src="screenshot.jpg"></a>
 
 <h2>Download and installation</h2>
-
 
 1 - Install node package. If you don’t know the installation steps, please click <a href="https://nodejs.org/en/">here</a>.
 
@@ -29,27 +26,23 @@ Star Admin 2 Free is designed to work flawlessly with all the latest and modern 
 
 <h2>License Information:</h2>
 
-
 Star Admin 2 Free is released under MIT license. This is a free Bootstrap 5 admin template developed from BootstrapDash. Feel free to download, use, share, and get creative with it.
-
-
 
 <h2>How to Contribute?:</h2>
 
-
 We love your contributions and we welcome them wholeheartedly. We believe the more the merrier. To contribute make sure you have Node.js and npm installed. Now run the command gulp --version. If the command returns with the Gulp version number, it means you have Gulp installed. If not you need to run the command npm install --global gulp-cli to install Gulp.
 
-
 After Gulp has been installed, follow the steps below to contribute.
-  <br>
-	1 -  Fork and clone the repo of Star Admin 2 Free
-  <br>
-	2 - Run the command npm install to install all the dependencies.
-  <br>
-	3 - Enter the command gulp serve. This will open Star Admin 2 Free in your default browser.
-  <br>
-	4 - Make your valuable contribution
-  <br>
-	5 - Submit a pull request
+<br>
+1 - Fork and clone the repo of Star Admin 2 Free
+<br>
+2 - Run the command npm install to install all the dependencies.
+<br>
+3 - Enter the command gulp serve. This will open Star Admin 2 Free in your default browser.
+<br>
+4 - Make your valuable contribution
+<br>
+5 - Submit a pull request
+
   <hr>
 Do you need a template with more features and functionalities? Check out the premium version of Star Admin 2! Visit <a href="https://www.bootstrapdash.com" target="_blank">https://www.bootstrapdash.com</a> for more admin templates.
