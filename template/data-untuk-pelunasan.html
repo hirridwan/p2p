@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Input Pembayaran P2P</title>
+    <title>Data Untuk Pelunasan</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css" />
     <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css" />
@@ -413,306 +413,46 @@
               <div class="col-md-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">INPUT PEMBAYARAN P2P</h4>
-                    <form class="forms-sample">
-                      <!-- ROW 1 -->
-                      <div class="form-group">
-                        <label for="factsheet">No. Factsheet</label>
-                        <input type="text" class="form-control" id="factsheet" placeholder="No. Factsheet" />
-                      </div>
-                      <!-- TUTUP ROW 1 -->
-
-                      <!-- ROW 2 -->
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="nama_fintech">Nama Fintech</label>
-                            <select class="form-control" id="nama_fintech">
-                              <option selected>Pilih Fintech</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="nama_borrower">Nama Borrower</label>
-                            <input type="email" class="form-control" id="nama_borrower" placeholder="Nama Borrower" />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- End ROW 2 -->
-
-                      <!-- ROW 3 -->
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="lokasi_perusahaan">Lokasi Perusahaan</label>
-                            <select class="form-control" id="lokasi_perusahaan">
-                              <option selected>Pilih Lokasi Perusahaan</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="sektor_usaha">Sektor Usaha</label>
-                            <input type="email" class="form-control" id="sektor_usaha" placeholder="Sektor Usaha" />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- End ROW 3 -->
-
-                      <!-- ROW 4 -->
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="nama_lokasi_projek">Nama Lokasi Projek</label>
-                            <select class="form-control" id="nama_lokasi_projek">
-                              <option selected>Pilih Lokasi Projek</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="jenis_pembiayaan">Jenis Pembiayaan</label>
-                            <select class="form-control" id="jenis_pembiayaan">
-                              <option selected>Pilih Jenis Pembiayaan</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- End ROW 4 -->
-
-                      <!-- ROW 5 -->
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="add_pk">ADD & PK</label>
-                            <select class="form-control" id="add_pk">
-                              <option selected>Pilih ADD & PK</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="plafon_penawaran">Plafon Penawaran</label>
-                            <select class="form-control" id="plafon_penawaran">
-                              <option selected>Pilih Plafon Penawaran</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- End ROW 5 -->
-
-                      <!-- ROW 6 -->
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="nominal_pembayaran">Nominal Pembayaran</label>
-                            <div class="input-group">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text bg-primary text-white">Rp</span>
-                              </div>
-                              <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" />
-                              <div class="input-group-append">
-                                <span class="input-group-text">.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-3">
-                          <div class="form-group">
-                            <label for="jangka_waktu">Jangka Waktu</label>
-                            <input type="email" class="form-control" id="jangka_waktu" placeholder="Jangka Waktu" />
-                          </div>
-                        </div>
-                        <div class="col-3">
-                          <div class="form-group">
-                            <label for="type">Type</label>
-                            <select class="form-control" id="type">
-                              <option selected>Pilih Type</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- End ROW 6 -->
-
-                      <!-- row 7 -->
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="pilih_add_pk">ADD & PK</label>
-                            <select class="form-control" id="pilih_add_pk">
-                              <option selected>Pilih ADD & PK</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="bunga">Bunga</label>
-                            <input type="email" class="form-control" id="bunga" placeholder="Bunga" />
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="tujuan_pinjaman">Tujuan Pinjaman</label>
-                            <input type="email" class="form-control" id="tujuan_pinjaman" placeholder="Tujuan Pinjaman" />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- row 7 -->
-
-                      <!-- ROW 8 -->
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="sifat_pembiayaan">Sifat Pembiayaan</label>
-                            <input type="email" class="form-control" id="sifat_pembiayaan" placeholder="Sifat Pembiayaan" />
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="rating_fintech">Rating Fintech</label>
-                            <select class="form-control" id="rating_fintech">
-                              <option selected>Pilih Rating Fintech</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="status_pembiayaan">Status Pembiayaan</label>
-                            <select class="form-control" id="status_pembiayaan">
-                              <option selected>Pilih Status Pembiayaan</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- ROW 8 -->
-
-                      <!-- ROW 9 -->
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="tanggal_pembiayaan">Tanggal Pembiayaan</label>
-                            <input type="date" class="form-control" id="tanggal_pembiayaan" />
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="rating_pefindo">Rating Pefindo</label>
-                            <select class="form-control" id="rating_pefindo">
-                              <option selected>Pilih Rating Pefindo</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" /> -->
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="agunan_utama">Agunan Utama</label>
-                            <select class="form-control" id="agunan_utama">
-                              <option selected>Pilih Agunan Utama</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- ROW 9 -->
-
-                      <!-- ROW 10 -->
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="nama_payor">Nama Payor</label>
-                            <input type="text" class="form-control" id="nama_payor" placeholder="Nama Payor" />
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="bidang_usaha">Bidang Usaha</label>
-                            <input type="text" class="form-control" id="bidang_usaha" placeholder="Bidang Usaha" />
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <label for="lokasi_payor">Lokasi Payor</label>
-                            <input type="text" class="form-control" id="lokasi_payor" placeholder="Lokasi Payor" />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- ROW 10 -->
-
-                      <!-- ROW 11 -->
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="baki_debet">Baki Debet</label>
-                            <input type="text" class="form-control" id="baki_debet" placeholder="Baki Debet" />
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="rekomendasi_rac">Rekomendasi RAC</label>
-                            <select class="form-control" id="rekomendasi_rac">
-                              <option selected>Pilih Rekomendasi RAC</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- ROW 11 -->
-
-                      <!-- ROW 12 -->
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="bonafide">Bonafide</label>
-                            <select class="form-control" id="bonafide">
-                              <option selected>Pilih Bonafide</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="form-group">
-                            <label for="repeat_order">Repeat Order</label>
-                            <select class="form-control" id="repeat_order">
-                              <option selected>Pilih Repeat Order</option>
-                              <option>Data A</option>
-                              <option>Data B</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- ROW 12 -->
-
-                      <button type="submit" class="btn btn-primary me-2">Submit</button>
-                      <button class="btn btn-light">Cancel</button>
-                    </form>
+                    <h4 class="card-title">Data Untuk Pelunasan</h4>
+                    <p class="card-description">Data Detail Untuk Pelunasan</p>
+                    <div class="table-responsive">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th>No.</th>
+                            <th>No. Factsheet</th>
+                            <th>Nama Borrower</th>
+                            <th>Nama Payor</th>
+                            <th>Tanggal Awal</th>
+                            <th>Nominal</th>
+                            <th>Status</th>
+                            <th>JW</th>
+                            <th>Type</th>
+                            <th>Bunga</th>
+                            <th>Profisi</th>
+                            <th>Nomor Rekening</th>
+                            <th>Nominal Bunga</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                            <td>null</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>
